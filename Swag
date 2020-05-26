@@ -1,0 +1,21 @@
+ /* display C program to swap two integer numbers using the concepts of pointers. Use a function called swap () which takes two pointer type arguments and swap them within the body of the function. */
+#include <stdio.h>
+int swap (int*, int*);
+int main()
+{
+    int a, b;
+    printf("Enter the Values for a and b:");
+    scanf("%d%d", &a, &b);
+    swap(&a, &b);
+    printf("Number after swap: %d", a,b);
+    getch();
+}
+ int swap(int*x, int *y)
+ (
+    int t;
+    t=*x;
+    *x=*y;
+    *y=t;
+  )
+
+   
